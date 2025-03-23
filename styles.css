@@ -95,6 +95,31 @@
     margin: 5px 0;
     transition: 0.3s;
 }
+/* Hace que el GIF ocupe toda la pantalla */
+.plant-growth {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('/Assets/Img/multiGrowUp.gif') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Capa oscura para mejorar la legibilidad del texto */
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Oscurece un poco el fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Texto animado en el centro */
+#typed-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {

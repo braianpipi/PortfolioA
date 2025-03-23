@@ -6,29 +6,51 @@
     <title>Braian Arguello - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header class="header">
-        <!-- Colocacion de Imagen Header -->
-        <div class="container">
-            <img src="/Assets/Img/imgNameHeader.png" alt="Braian Arguello Logo" class="logo-container border-radius">
-            <button><img src="/Assets/Img/buttonLogo.png" alt="Button Logo" class="buttonLogo"></button>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#about">Sobre Mí</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-            <!-- ALPHA-->
-            <!-- Botón de menú hamburguesa -->
-            <div class="menu-btn">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+<header class="header">
+    <!-- Colocacion de Imagen Header -->
+    <div class="container">
+        <img src="/Assets/Img/imgNameHeader.png" alt="Braian Arguello Logo" class="logo-container border-radius">
+        <button><img src="/Assets/Img/buttonLogo.png" alt="Button Logo" class="buttonLogo"></button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- ALPHA-->
+        <!-- Botón de menú hamburguesa -->
+        <div class="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-    </header>
+    </div>
+</header>
+<body>
 
+
+    <!--Implementation body gif -->
+    <section class="plant-growth">
+        <!-- <img src="/Assets/Img/growUpFirst.gif" alt="Planta Creciendo" class="plant-gif"> -->
+        <h2 id="typed-text"></h2>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed("#typed-text", {
+            strings: [
+                "SEMBRAR UNA IDEA Y HACERLA CRECER"
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 2000,
+            loop: true
+        });
+    </script>
+    <footer>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
